@@ -19,6 +19,8 @@
 package edu.ncsu.csc326.coffeemaker;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -102,7 +104,7 @@ public class CoffeeMakerTest {
 	 * 		to a positive integer.
 	 */
 	@Test
-	public void testAddInventory() throws InventoryException {
+	public void testAddInventory() throws InventoryException { 
 		coffeeMaker.addInventory("4","7","0","9");
 	}
 	
